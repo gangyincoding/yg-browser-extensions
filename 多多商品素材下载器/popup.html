@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>多多商品素材下载器</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>多多商品素材下载器</h1>
+      <p id="page-state">正在检查当前标签页…</p>
+
+      <section class="help">
+        <strong>按钮在哪？</strong>
+        <ul>
+          <li><b>重新扫描</b>：商品页<b>右下角红色「素材下载」</b>面板里，或点下面大按钮。</li>
+          <li><b>重新加载插件</b>：不在网页上，在 Chrome 扩展管理页里点刷新 ↻。</li>
+        </ul>
+      </section>
+
+      <button id="open-pdd-home" type="button">打开拼多多首页（登录）</button>
+      <button id="scan" type="button">重新扫描当前商品页</button>
+      <button id="open-panel" type="button" class="secondary">打开页面右下角面板</button>
+      <button id="open-ext" type="button" class="secondary">打开扩展管理（重新加载插件）</button>
+
+      <p class="path tip">登录说明：在 Chrome/Edge 同一用户配置下登录一次即可；新开标签或新窗口打开商品页会共用登录，无需插件单独存密码。</p>
+      <p class="path">下载目录：浏览器默认下载文件夹 / 多多商品素材 / 商品ID_标题 / …</p>
+      <p class="path install">首次安装：扩展管理 → 开发者模式 → 加载已解压 → 选择本扩展文件夹（含 manifest.json）</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

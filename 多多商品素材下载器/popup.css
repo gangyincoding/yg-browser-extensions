@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  width: 340px;
+  font: 13px/1.5 "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1f2328;
+  background: #fff;
+}
+
+main {
+  padding: 14px 16px 16px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+#page-state {
+  margin: 0 0 10px;
+  color: #5c6370;
+}
+
+.help {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  background: #fff6f5;
+  border-radius: 10px;
+  border: 1px solid #f0d4d2;
+  font-size: 12px;
+}
+
+.help ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+button {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: #e02e24;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+button.secondary {
+  background: #fff;
+  color: #e02e24;
+  border: 1px solid #e02e24;
+  font-weight: 500;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.path {
+  margin: 4px 0 0;
+  color: #8b8f96;
+  font-size: 11px;
+}
+
+.install {
+  margin-top: 8px;
+}
+
+.tip {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: #f0f7ff;
+  border-radius: 8px;
+  color: #444;
+  line-height: 1.45;
+}
